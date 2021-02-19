@@ -1,0 +1,53 @@
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.8s all;
+}
+
+nav ul{
+  margin-top: 15px;
+  float: right;
+  text-align: top;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:  #ffffff;
+  padding: 28px;
+  font-size: 20px;
+}
+
+nav ul li:hover{
+  background-color: #b30000;
+}
+
+.pict{
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+body{
+  background-color: #1a1a1a;
+}
+
+
+.gallery{
+  margin: 94px;
+  border: 0px solid #ccc;
+  float: left;
+  width: 340px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  margin-left: 110px;
+  margin-top: 5px;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
